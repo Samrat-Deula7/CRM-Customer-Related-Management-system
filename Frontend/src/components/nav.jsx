@@ -45,10 +45,6 @@ const NavBar = ({}) => {
               Sign up
             </button>
           </div>
-          {/* This is the mobile menu */}
-          <div className=" w-7 h-5  relative -left-4 cursor-pointer z-40 text-white md:hidden">
-            &#9776;
-          </div>
         </div>
         <div
           className={`md:flex w-3xl h-xl  justify-start items-center gap-x-2 py-1 px-2 `}
@@ -57,7 +53,7 @@ const NavBar = ({}) => {
             <button aria-label="Close button">&times;</button>
 
             <Link
-              to="/tasks"
+              to="/visa"
               className={` md:text-110  text-gray-400 cursor-pointer hover:text-[#FF4A03] `}
               //   onClick={() => {
               //     setmenuOpen(false);
@@ -66,7 +62,7 @@ const NavBar = ({}) => {
               Visa
             </Link>
             <Link
-              to="/collaboration"
+              to="/docs"
               className={` md:text-110  text-gray-400 cursor-pointer hover:text-[#FF4A03] `}
             >
               Docs
