@@ -23,8 +23,7 @@
     "types": ["node", "jest"],
     "paths": {
       "src/*": ["./src/*"],
-      "@config/*": ["./src/config/*"],
-      "@episodes/*": ["./src/episodes/*"]
+      "@visa_ranking/*": ["./src/visa_ranking/*"]
     }
   }
 }

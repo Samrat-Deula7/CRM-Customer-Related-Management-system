@@ -72,8 +72,7 @@
     "testEnvironment": "node",
     "moduleNameMapper": {
       "^src/(.*)$": "<rootDir>/$1",
-      "^@config/(.*)$": "<rootDir>/config/$1",
-      "^@episodes/(.*)$": "<rootDir>/episodes/$1"
+      "^@visa_ranking/(.*)$": "<rootDir>/visa_ranking/$1"
     }
   }
 }
