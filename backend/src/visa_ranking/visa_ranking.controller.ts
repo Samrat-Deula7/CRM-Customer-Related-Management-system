@@ -12,8 +12,8 @@ export class VisaRankingController {
 
   @Get('rankings')
   async findAllRankings() {
-    const url = '';
+    const url = 'https://travelbriefing.org/api';
     const response = await firstValueFrom(this.httpService.get(url));
-    return this.visaRanking.findAllRankings();
+    return this.visaRanking.findAllRankings(response);
   }
 }
